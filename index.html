@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Salon Manal</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gupter:wght@400;500;700&family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <style>
+    .playwrite {
+  font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.gupter-medium {
+  font-family: "Gupter", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+
+.spot{
+  filter: blur(10rem);
+    width: 33%;
+    display: flex;
+    aspect-ratio: 1;
+    flex-basis: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    position: absolute;
+    top: 0;
+    left:0;
+
+    transform: translate(-50%, -50%);
+}
+.w-fit{
+  width: fit-content;
+}
+  </style>
+</head>
+<body class="bg-black flex items-center justify-center h-screen relative">
+  <div class="spot bg-pink-500 opacity-50"></div>
+  <div class="text-center w-full relative z-2">
+    
+    <div class="mx-auto w-fit">
+      <h1 class="gupter-medium text-9xl font-blackslash  bg-500 text-white text-pink-700 w-fit">Salon</h1>
+      <h2 class="playwrite text-5xl text-white -mt-7 text-right">Manal</h2>
+    </div>
+
+    <div class="flex flex-col gap-y-5 mt-14 w-full items-center">
+      <a href="https://wa.me/96170628830" class="justify-center  w-60 rounded-xl py-3 px-6 text-2xl flex items-center gap-2 text-white bg-green-500">
+        <i class="fab fa-whatsapp"></i>
+      <h3>Let's Talk</h3>
+      </a>
+
+      <a href="https://www.instagram.com/manal_.beauty" class="justify-center w-60 whitespace-nowrap rounded-xl py-3 px-6 text-2xl flex items-center gap-2 text-white bg-pink-500">
+        <i class="fab fa-instagram"></i>
+      <h3>Check our insta</h3>
+      </a>
+
+    </div>
+  </div>
+
+</body>
+</html>
